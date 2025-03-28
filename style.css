@@ -489,19 +489,19 @@ body.dark-mode {
     color: #ffffff;
 }
 
-/* Light Mode */
+
 body.light-mode {
     background-color: #ffffff;
     color: #000000;
 }
 
-/* Dark Mode */
+
 body.dark-mode {
     background-color: #2a2929;
     color: #ffffff;
 }
 
-/* Toggle Button Styling */
+
 .theme-toggle {
     width: 12rem;
     height: 3rem;
