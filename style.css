@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #2a2929;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    height: 120px;
+
+}
+
+.nav nav a {
+    float: right;
+    color: #f9f9f9;
+    margin-right: 2%;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 16px 22px;
+    text-decoration: none;
+}
+
+.nav nav a:hover {
+    color: rgb(122, 69, 87);
+    font-size: 49px;
+}
+
+.logo {
+    width: 220px;
+    height: 120px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.purple {
+    color: rgb(226, 74, 74);
+    font-weight: bold;
+}
+
+.leftSection {
+    margin-top: 10px;
+    font-size: 3rem;
+    width: 50%;
+    margin-left: 10rem;
+}
+
+#about {
+    font-size: 35px;
+    margin-top: 3rem;
+}
+
+.rightSection {
+    margin-top: 5rem;
+    width: 40%;
+
+}
+
+.rightSection img {
+    margin-top: 5rem;
+    width: 60%;
+    border-radius: 50%;
+    border: 10px solid rgb(60, 14, 31);
+}
+
+#element {
+    color: rgb(226, 74, 74);
+    font-weight: bold;
+
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.choices {
+
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+#imgs {
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+}
+
+#imgss {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 4rem;
+
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(226, 74, 74);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#edu {
+    margin-top: 2rem;
+    font-size: 30px;
+
+}
+
+.reduSection {
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+#info {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 40px;
+    text-align: justify;
+}
+
+
+.resume-link {
+    width: 12rem;
+    height: 3rem;
+    display: inline-block;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #bb8181;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.resume-link:hover {
+    background-color: #4a42d4;
+}
+
+.highlight {
+    background-color: rgba(108, 99, 255, 0.2);
+    border-left: 5px solid #6c63ff;
+    padding-left: 10px;
+}
+
+
+#hskill {
+
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(226, 74, 74);
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+
+#skillhead {
+    margin-top: 1rem;
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.skills {
+    height: 100%;
+    font-size: large;
+    text-align: right;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skills-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.skills-left {
+    flex: 1;
+}
+
+.skills-right {
+    flex: 1;
+}
+
+.reduSection {
+
+    flex: 1;
+    margin: 5rem;
+}
+
+.education-container {
+    display: flex;
+    gap: 40rem;
+}
+
+#lskill {
+
+
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(226, 74, 74);
+    text-align: left;
+    margin-top: 5rem;
+
+
+}
+
+#describe {
+    font-weight: 100;
+    font-size: x-large;
+}
+
+
+#lskill {
+    display: flex;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(226, 74, 74);
+    text-align: right;
+    margin-top: 5rem;
+
+}
+
+
+
+
+.html {
+    width: 90%;
+    background-color: #808080;
+}
+
+.css {
+    width: 80%;
+    background-color: #808080;
+}
+
+.js {
+    width: 65%;
+    background-color: #808080;
+}
+
+.python {
+    width: 60%;
+    background-color: #808080;
+}
+
+.C {
+    width: 70%;
+    background-color: #808080;
+}
+
+.SoftSkill {
+    width: 85%;
+    background-color: #808080;
+}
+
+.react {
+    width: 30%;
+    background-color: #808080;
+}
+
+.team {
+    width: 90%;
+    background-color: #808080;
+
+}
+
+.english {
+    width: 90%;
+    background-color: #808080;
+
+}
+
+.hindi {
+    width: 100%;
+    background-color: #808080;
+}
+
+.sql {
+    width: 70%;
+    background-color: #808080;
+}
+
+.punjabi {
+    width: 100%;
+    background-color: #808080;
+}
+
+#boxes {
+    display: flex;
+    margin-left: 1rem;
+    gap: 3rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#box {
+    margin-top: 1rem;
+    background-color: hsl(0, 1%, 33%);
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+#protitle {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#box:hover {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#titlepro {
+    text-align: center;
+    font-weight: bold;
+}
+
+#tic {
+    height: 250px;
+    width: 240px;
+}
+
+#netflix {
+    height: 250px;
+    width: 240px;
+}
+
+#rock {
+    height: 250px;
+    width: 240px;
+}
+
+#calculator {
+    height: 210px;
+    width: 210px;
+}
+
+.leftheading {
+
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(226, 74, 74);
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.deloitte {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 5rem;
+}
+
+#formtitles {
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+#contact-section {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #2a2929;
+    color: white;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+.submit-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #4a42d4;
+}
+
+.foot {
+    background-color: #000000;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.foot a {
+    color: #f2f2f2;
+    text-decoration: none;
+    text-shadow: #292828;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #2a2929;
+    color: #ffffff;
+}
+
+/* Light Mode */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #2a2929;
+    color: #ffffff;
+}
+
+/* Toggle Button Styling */
+.theme-toggle {
+    width: 12rem;
+    height: 3rem;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #bb8181;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.theme-toggle:hover {
+    background-color: #000000;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    display: none;
+    background-color: #f81d1d;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 8px 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #720000;
+}
